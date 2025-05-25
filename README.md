@@ -19,3 +19,10 @@ A simple command line application to manage tasks. Users can add, view, mark and
    ```bash
    git clone <repository-url>
    cd SimpleTaskList
+
+# Members
+Hannan Ahmed, UGR/1910/17
+Ayantu Alemu, UGR/9765/17
+Eden Manasbot, UGR/1965/17
+Bitanya Mesfin, UGR/5798/17
+Eldana Tilaye, UGR/9955/17
