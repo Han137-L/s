@@ -17,7 +17,7 @@ A simple command line application to manage tasks. Users can add, view, mark and
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Han137-L/s.git>
    cd SimpleTaskList
 
 # Members
