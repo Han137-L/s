@@ -32,4 +32,15 @@ Eldana Tilaye, UGR/9955/17
 
 
 class TaskList :
- def_in
+ def_init_(self):
+    self.tasks = []
+
+ def add_task(self, description):
+     new_task = Task(description)
+     self.tasks.append(new_task)
+
+ def view_tasks(self):
+     for index, task in enumerate(self.tasks):
+         print(f"{index + 1}. {task}")
+
+         
