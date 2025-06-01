@@ -70,4 +70,14 @@ class TaskList :
             print("Invalid task number.")
 
             
-         
+ def main():
+    task_list = TaskList()
+    while True:
+        print("\nSimple Task List")
+        print("1. Add Task")
+        print("2. View Tasks")
+        print("3. Mark Task as Complete")
+        print("4. Delete Task")
+        print("5. Exit")
+        
+                
