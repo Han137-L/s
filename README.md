@@ -57,4 +57,17 @@ class TaskList :
      for index, task in enumerate(self.tasks):
          print(f"{index + 1}. {task}")
 
+ def mark_task_complete(self, index):
+        if 0 <= index < len(self.tasks):
+            self.tasks[index].mark_complete()
+        else:
+            print("Invalid task number.")
+
+ def delete_task(self, index):
+        if 0 <= index < len(self.tasks):
+            del self.tasks[index]
+        else:
+            print("Invalid task number.")
+
+            
          
