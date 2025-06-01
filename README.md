@@ -30,7 +30,21 @@ Eldana Tilaye, UGR/9955/17
 
 
 
+# simple_task_list.py
 
+class Task:
+ def _init_(self, description):
+    self.description = description
+    self.completed = False
+
+ def mark_complete(self):
+    self.completed = True
+
+ def _str_(self):
+    status = "✓" if self.completed else "✗"
+    return f"[{status}] {self.description}"
+
+    
 class TaskList :
  def_init_(self):
     self.tasks = []
